@@ -19,13 +19,19 @@
 	color: rgb(237, 238, 240);
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	font-size: 20px;
+}
+
+.logo span {
+	font-size: 40px;
+	font-family: "Poppins", sans-serif;
+	font-weight: 900;
 }
 
 .nav-links {
 	display: flex;
 	justify-content: space-around;
 	width: 60%;
+	margin-bottom: 0rem;
 }
 
 .nav-links li {
@@ -55,6 +61,9 @@
 @media screen and (max-width: 1024px) {
 	.nav-links {
 		width: 70%;
+	}
+	.logo span {
+		margin-left: 40px;
 	}
 }
 
