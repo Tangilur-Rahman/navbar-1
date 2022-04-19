@@ -6,7 +6,7 @@
 	box-sizing: border-box;
 }
 
-#nav {
+#nav{
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
@@ -19,11 +19,12 @@
 	color: rgb(237, 238, 240);
 	text-transform: uppercase;
 	letter-spacing: 5px;
+	
 }
 
-.logo span {
+.logo span{
 	font-size: 40px;
-	font-family: "Poppins", sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: 900;
 }
 
@@ -32,7 +33,7 @@
 	justify-content: space-around;
 	width: 60%;
 	margin-bottom: 0rem;
-	/* for bootstrap style override  */
+	/* for bootstrap css style override  */
 }
 
 .nav-links li {
@@ -52,8 +53,8 @@
 }
 
 .burger div {
-	width: 25px;
-	height: 3px;
+	width: 30px;
+	height: 4px;
 	background-color: rgb(237, 238, 240);
 	margin: 5px;
 	transition: all 0.3s ease;
@@ -63,7 +64,7 @@
 	.nav-links {
 		width: 70%;
 	}
-	.logo span {
+	.logo span{
 		margin-left: 40px;
 	}
 }
@@ -140,5 +141,5 @@
 }
 
 .line-3 {
-	transform: rotate(45deg) translate(-5px, -6px);
+	transform: rotate(45deg) translate(-6px, -8px);
 }

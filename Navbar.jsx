@@ -12,30 +12,30 @@ const Navbar = () => {
 		<>
 			<nav id="nav">
 				<div className="logo">
-					<h4>The Nav</h4>
+					<span>Tangil</span>
 				</div>
 				<ul
 					id="nav-links"
 					className={isActive ? "nav-links nav-active" : "nav-links"}
 				>
 					<li className={isActive ? "ani-link-1" : null}>
-						<a href="/">Home</a>
+						<a href="#profile">Profile</a>
 					</li>
 
 					<li className={isActive ? "ani-link-2" : null}>
-						<a href="/">About</a>
+						<a href="#aboutme">AboutMe</a>
 					</li>
 
 					<li className={isActive ? "ani-link-3" : null}>
-						<a href="/">Work</a>
+						<a href="#resume">Resume</a>
 					</li>
 
 					<li className={isActive ? "ani-link-4" : null}>
-						<a href="/">Projects</a>
+						<a href="#testimonial">Testimonial</a>
 					</li>
 
 					<li className={isActive ? "ani-link-5" : null}>
-						<a href="/">Contract</a>
+						<a href="#contractme">ContractMe</a>
 					</li>
 				</ul>
 
