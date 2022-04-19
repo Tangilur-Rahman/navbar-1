@@ -32,6 +32,7 @@
 	justify-content: space-around;
 	width: 60%;
 	margin-bottom: 0rem;
+	/* for bootstrap style override  */
 }
 
 .nav-links li {
