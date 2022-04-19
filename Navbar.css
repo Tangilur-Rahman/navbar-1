@@ -67,7 +67,9 @@
 	.nav-links {
 		position: absolute;
 		right: 0px;
-		height: 92vh;
+
+		/* for mobile  */
+		height: calc(92vh - calc(100vh - 100%));
 		top: 8vh;
 		background-color: rgba(36, 38, 59, 0.8);
 		display: flex;
@@ -83,12 +85,6 @@
 	}
 	.burger {
 		display: block;
-	}
-}
-
-@media screen and (max-width: 576px) {
-	.nav-links {
-		top: 3vh;
 	}
 }
 
