@@ -11,7 +11,7 @@
 	justify-content: space-around;
 	align-items: center;
 	min-height: 8vh;
-	background-color: #5d4954;
+	background-color: #24263b;
 	font-family: "Poppins", sans-serif;
 }
 
@@ -25,7 +25,7 @@
 .nav-links {
 	display: flex;
 	justify-content: space-around;
-	width: 50%;
+	width: 60%;
 }
 
 .nav-links li {
@@ -47,19 +47,21 @@
 .burger div {
 	width: 25px;
 	height: 3px;
-	background-color: aliceblue;
+	background-color: rgb(237, 238, 240);
 	margin: 5px;
    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 1024px) {
 	.nav-links {
-		width: 60%;
+		width: 70%;
 	}
 }
 
-@media screen and (max-width: 768px) {
-	body {
+@media screen and (max-width: 850px) {
+
+/* <meta name="viewport" content="width=device-width, minimum-scale=1" />  */
+	body,html {
 		overflow-x: hidden;
 	}
 	.nav-links {
@@ -67,7 +69,7 @@
 		right: 0px;
 		height: 92vh;
 		top: 8vh;
-		background-color: rgb(0, 0, 0,.5);
+		background-color: rgba(36, 38, 59, .8);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
@@ -83,6 +85,7 @@
 		display: block;
 	}
 }
+
 
 .nav-active{
 	transform: translateX(0%);
